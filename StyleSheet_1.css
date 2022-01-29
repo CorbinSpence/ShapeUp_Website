@@ -1,0 +1,168 @@
+body{
+	font-family: Arial;
+	border: 3px solid #4682b4;
+	margin-left:225px;
+	margin-right:225px;
+	box-shadow: 0px 8px 10px 8px black;
+}
+body header h1{
+	color: #4682b4;
+	text-shadow: 2px 2px 2px;
+	font-size: 50px;
+	font-style: italic;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+body header img{
+	float: left;
+	margin-right: 3em;
+	margin-left: 2em;
+	margin-top: 6px;
+	width: 138px;
+	height: 103px;
+}
+h3 a{
+	color: #800000;
+}
+footer{
+	border: 3px solid #4682b4;
+	background-color: #4682b4;
+	height: 50px;
+	text-align: center;
+	color: white;
+}
+footer p{
+	margin-top: 15px;
+}
+body header{
+	border-bottom: 3px solid #4682b4;
+	background-image: -webkit-linear-gradient(white , #accae8);
+	
+}
+body header h2{
+	font-size: 25px;
+	margin-top: 10px;
+}
+main{
+	margin-top: 50px;
+	margin-left: 400px;
+	height: 1250px;
+	width: 54%;
+	font-size: 20px;
+}
+#nav_list ul{
+	list-style-type: none;
+	position: relative;
+	background-color: #4682b4;
+	margin-top: 0;
+}
+#nav_list ul li{
+	float: left;
+}
+#nav_list ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_list ul li:hover>ul{
+	display: block;
+}
+#nav_list ul li a:hover, #nav_list ul li a:focus{
+	background-color: #68a4d6;
+}
+#nav_list>ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav_list ul li a{
+	text-align: center;
+	padding: 1em 0;
+	display: block;
+	width: 265px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav_list ul ul li{
+	float: none;
+}
+#nav_list ul ul{
+	margin: 0;
+	padding: 0;
+}
+#nav_list ul li a.lastitem{
+	color: black;
+}
+main ul li a{
+	margin-bottom: 10px;
+}
+a{
+	color: #4682b4;
+}
+
+#sidebarA{
+	float: left;
+	width: 20%;
+	height: 1250px;
+	margin-left: 25px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+#sidebarA h2{
+	color: #800000;
+}
+#sidebarA ul li{
+	margin-top: 10px;
+}
+#sidebarB{
+	width: 20%;
+	height: 1250px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	font-size: 14px;
+}
+#sidebarB h2{
+	color: #800000;
+}
+td.left{
+	font-weight: bold;
+	padding-right: 40px;
+	vertical-align: text-top;
+}
+td{
+	padding-right: 60px;
+	
+}
+table{
+	white-space: nowrap;
+}
+td.right table{
+	text-align: right;
+	float: right;
+}
+thead{
+	color: #800000;
+	font-weight: bold;
+}
+thead tr th{
+	text-align: left;
+	padding-bottom: 20px;
+}
+#tabletitle{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	background-image: none;
+	border-bottom: none;
+	padding-bottom: 25px;
+}
+#tablenote{
+	background-image: none;
+	background-color: white;
+	border: none;
+	color: black;
+	text-align: left;
+	padding-top: 30px;
+}
