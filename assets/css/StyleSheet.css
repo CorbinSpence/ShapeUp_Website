@@ -1,0 +1,181 @@
+body{
+	font-family: Arial;
+	border: 3px solid #4682b4;
+	margin-left:225px;
+	margin-right:225px;
+	box-shadow: 0px 8px 10px 8px black;
+	
+}
+header h1{
+	color: #4682b4;
+	text-shadow: 2px 2px 2px;
+	font-size: 50px;
+	font-style: italic;
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+header img{
+	float: left;
+	margin-right: 3em;
+	margin-left: 2em;
+	margin-top: 6px;
+	width: 138px;
+	height: 103px;
+}
+h3 a{
+	color: #800000;
+}
+footer{
+	border: 3px solid #4682b4;
+	background-color: #4682b4;
+	height: 50px;
+	text-align: center;
+	color: white;
+}
+footer p{
+	margin-top: 15px;
+}
+header{
+	border-bottom: 3px solid #4682b4;
+	background-image: -webkit-linear-gradient(white , #accae8);
+	
+}
+header h2{
+	font-size: 25px;
+	margin-top: 10px;
+}
+main{
+	margin-top: 50px;
+	margin-left: 400px;
+	height: 1550px;
+	width: 54%;
+	font-size: 20px;
+}
+#nav_list ul{
+	list-style-type: none;
+	position: relative;
+	background-color: #4682b4;
+	margin-top: 0;
+}
+#nav_list ul li{
+	float: left;
+}
+#nav_list ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+#nav_list ul li:hover>ul{
+	display: block;
+}
+#nav_list ul li a:hover, #nav_list ul li a:focus{
+	background-color: #68a4d6;
+}
+#nav_list>ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#nav_list ul li a{
+	text-align: center;
+	padding: 1em 0;
+	display: block;
+	width: 265px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav_list ul ul li{
+	float: none;
+}
+#nav_list ul ul{
+	margin: 0;
+	padding: 0;
+}
+#nav_list ul li a.lastitem{
+	color: black;
+}
+main ul li a{
+	margin-bottom: 10px;
+}
+a{
+	color: #4682b4;
+}
+
+#sidebarA{
+	float: left;
+	width: 20%;
+	height: 1250px;
+	margin-left: 25px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+#sidebarA h2{
+	color: #800000;
+}
+#sidebarA ul li{
+	margin-top: 10px;
+}
+#sidebarB{
+	width: 20%;
+	height: 1250px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 25px;
+	font-size: 14px;
+}
+#sidebarB h2{
+	color: #800000;
+}
+#general label{
+	margin-right: 10px;
+	width: 5em;
+	height: 1em;
+	float: left;
+	text-align: right;
+	white-space: nowrap;
+	margin-top: 5px;
+}
+#general input, select{
+	width: 325px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#fullname:invalid, #email:invalid{
+	border: 2px solid #800000;
+}
+textarea{
+	width: 700px;
+	height: 175px;
+	margin-top: 10px;
+}
+#life_and_goals label{
+	margin-left: 50px;
+}
+
+#life_and_goals input{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#pref_and_restrict input{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+#pref_and_restrict #other{
+	margin-top: 0px;
+}
+br{
+	clear: both;
+}
+#submit, #start_over{
+	width: 185px;
+	height: 25px;
+	margin-bottom: 6px;
+	margin-top: 6px;
+}
+#submit{
+	margin-left: 50px;
+}
+fieldset{
+	margin-top: 10px;
+}
